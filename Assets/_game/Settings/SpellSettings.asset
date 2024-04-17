@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13d593444434427b5a33fe60abb53a1, type: 3}
+  m_Name: SpellSettings
+  m_EditorClassIdentifier: 
+  Spells:
+  - Type: 1
+    Name: Fireball
+    DamageType: 1
+    Damage: 8
+    ProjectileMoveSpeed: 10
+    ProjectileFallSpeed: 1
+    Prefab: {fileID: 3654950411698096038, guid: fb9d08fc6e7749d40a2d846fa23e4a34, type: 3}
+    InitialPoolSize: 4
+  - Type: 2
+    Name: Ball Lightning
+    DamageType: 2
+    Damage: 6
+    ProjectileMoveSpeed: 10
+    ProjectileFallSpeed: 1
+    Prefab: {fileID: 563717668554719213, guid: 873bf40c0a48e164ba32b3f4d087b50a, type: 3}
+    InitialPoolSize: 4
+  - Type: 3
+    Name: Holy Spirit
+    DamageType: 3
+    Damage: 10
+    ProjectileMoveSpeed: 10
+    ProjectileFallSpeed: 1
+    Prefab: {fileID: 2939647262393513192, guid: e15209d468634ad40af9c344f6b6bb57, type: 3}
+    InitialPoolSize: 4

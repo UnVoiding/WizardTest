@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac0a751852d434eabb6ebd38c5fb683, type: 3}
+  m_Name: RoundSettings
+  m_EditorClassIdentifier: 
+  WizardSettings: {fileID: 11400000, guid: 775bb8632388b6645a320d1f25513fca, type: 2}
+  SpawnerSettings: {fileID: 11400000, guid: 7a4538c367d4c614ebe63ec056e92273, type: 2}
+  EnemySettings: {fileID: 11400000, guid: 781b6dd18fee30a4ca385646017c16f3, type: 2}
+  MonstersToKill: 15
+  StartRoundCountdownTime: 3
+  GroundY: 0.5

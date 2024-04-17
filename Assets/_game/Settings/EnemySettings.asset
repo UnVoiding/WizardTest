@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c4446a033e416bbca0ec55406cf33f, type: 3}
+  m_Name: EnemySettings
+  m_EditorClassIdentifier: 
+  Enemies:
+  - Type: 1
+    Name: Ghost
+    Prefab: {fileID: 38941828826635642, guid: d3e94034f4a149c4595e1ed22addac53, type: 3}
+    Damage: 10
+    Health: 20
+    MoveSpeed: 3.5
+    AttackPeriod: 1.5
+    ReturnToChaseStateTime: 3
+    Resistances:
+    - DamageType: 1
+      Amount: 0.7
+    - DamageType: 2
+      Amount: 0.7
+    - DamageType: 3
+      Amount: 0
+    InitialPoolSize: 3
+  - Type: 2
+    Name: Skeleton
+    Prefab: {fileID: 38941828826635642, guid: 605cca484b4cad1479e98988ab2e43ad, type: 3}
+    Damage: 10
+    Health: 20
+    MoveSpeed: 3.5
+    AttackPeriod: 1.5
+    ReturnToChaseStateTime: 3
+    Resistances:
+    - DamageType: 1
+      Amount: 0.33
+    - DamageType: 2
+      Amount: 0.7
+    - DamageType: 3
+      Amount: 0
+    InitialPoolSize: 3
+  - Type: 3
+    Name: Zombie
+    Prefab: {fileID: 38941828826635642, guid: 9508ad20740eda84eb0acf65ae634aee, type: 3}
+    Damage: 10
+    Health: 40
+    MoveSpeed: 2
+    AttackPeriod: 1.5
+    ReturnToChaseStateTime: 3
+    Resistances:
+    - DamageType: 1
+      Amount: 0.5
+    - DamageType: 2
+      Amount: 0.7
+    - DamageType: 3
+      Amount: 0
+    InitialPoolSize: 3
+  - Type: 4
+    Name: Demon
+    Prefab: {fileID: 38941828826635642, guid: 6fa866ed16928044980df7213eb5b3e5, type: 3}
+    Damage: 5
+    Health: 10
+    MoveSpeed: 5
+    AttackPeriod: 1.5
+    ReturnToChaseStateTime: 3
+    Resistances:
+    - DamageType: 1
+      Amount: 0.8
+    - DamageType: 2
+      Amount: 0
+    - DamageType: 3
+      Amount: 0.7
+    InitialPoolSize: 3
